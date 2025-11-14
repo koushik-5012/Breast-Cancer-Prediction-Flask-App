@@ -1,0 +1,59 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <title>Breast Cancer Prediction</title>
+   <div class="container">
+      <div class="row">
+
+         <!-- FIXED FORM TAG -->
+         <form action="/" method="POST">
+
+            <div class="col-sm-9">
+               <div class="form-group purple-border">
+                  <label >texture_mean:</label>
+                  <textarea class="form-control" id="query1" name="query1" rows="2">{{query1}}</textarea>
+               </div>
+
+               <div class="form-group purple-border">
+                  <label >perimeter_mean:</label>
+                  <textarea class="form-control" id="query2" name="query2" rows="2">{{query2}}</textarea>
+               </div>
+
+               <div class="form-group purple-border">
+                  <label >smoothness_mean:</label>
+                  <textarea class="form-control" id="query3" name="query3" rows="2">{{query3}}</textarea>
+               </div>
+
+               <div class="form-group purple-border">
+                  <label >compactness_mean:</label>
+                  <textarea class="form-control" id="query4" name="query4" rows="2">{{query4}}</textarea>
+               </div>
+
+               <div class="form-group purple-border">
+                  <label >symmetry_mean:</label>
+                  <textarea class="form-control" id="query5" name="query5" rows="2">{{query5}}</textarea>
+               </div>
+            </div>
+
+            <div class="col-sm-3">
+               <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+
+         </form>
+      </div>
+
+      <div class="row">
+         <div class="col-sm-9">
+            <textarea class="form-control" rows="2">{{output1}}</textarea>
+            <textarea class="form-control" rows="2">{{output2}}</textarea>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
+
