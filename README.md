@@ -6,7 +6,7 @@ This project is an end-to-end implementation of a Breast Cancer Prediction Syste
 # Breast Cancer Prediction — End-to-End Machine Learning & Deployment
 
  🔗 Live Demo
-http://13.126.224.49/
+http://65.2.176.239/
 
 This project is an end-to-end implementation...
 
